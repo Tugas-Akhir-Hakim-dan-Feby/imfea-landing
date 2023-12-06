@@ -135,9 +135,9 @@
                 <div class="row g-5">
                     <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
                         <div class="h-100 position-relative">
-                            <img src="img/about-1.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <img src="{{ asset('assets/img/about-1.jpg') }}" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
                             <div class="position-absolute w-75" style="top: 25%; left: 25%;">
-                                <img src="img/about-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                <img src="{{ asset('assets/img/about-2.jpg') }}" class="img-fluid w-100 rounded" alt="">
                             </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="img/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                    <img src="{{ asset('assets/img/team-1.jpg') }}" class="img-fluid w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
                                     <h4 class="">Full Name</h4>
@@ -185,7 +185,7 @@
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                    <img src="{{ asset('assets/img/team-2.jpg') }}" class="img-fluid w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
                                     <h4 class="">Full Name</h4>
@@ -204,7 +204,7 @@
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="img/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                    <img src="{{ asset('assets/img/team-3.jpg') }}" class="img-fluid w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
                                     <h4 class="">Full Name</h4>
@@ -223,7 +223,7 @@
                         <div class="team-content">
                             <div class="team-img-icon">
                                 <div class="team-img rounded-circle">
-                                    <img src="img/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                    <img src="{{ asset('assets/img/team-4.jpg') }}" class="img-fluid w-100 rounded-circle" alt="">
                                 </div>
                                 <div class="team-name text-center py-3">
                                     <h4 class="">Full Name</h4>
@@ -249,7 +249,7 @@
             <div class="container pt-5 pb-4">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <a href="index.html">
+                        <a href="{{ route('home') }}">
                             <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Tech</span> </h1>
                         </a>
                         <p class="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
