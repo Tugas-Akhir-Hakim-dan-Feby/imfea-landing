@@ -30,9 +30,11 @@
 
     <body>
 
-        {{-- @include('frontend.layouts.narvbar')  --}}
+        @include('frontend.layouts.narvbar') 
 
         @yield('content')
+
+        @include('frontend.layouts.footer')
 
           
         <!-- JavaScript Libraries -->
