@@ -26,15 +26,17 @@
 
         <!-- Template Stylesheet -->
         <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+
+        
     </head>
 
     <body>
 
-        @include('frontend.layouts.narvbar') 
+        @include('frontend.layouts.components.narvbar') 
 
         @yield('content')
 
-        @include('frontend.layouts.footer')
+        @include('frontend.layouts.components.footer')
 
           
         <!-- JavaScript Libraries -->
@@ -44,9 +46,11 @@
         <script src="{{ asset('assets/lib/easing/easing.min.js') }}"></script>
         <script src="{{ asset('assets/lib/waypoints/waypoints.min.js') }}"></script>
         <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+        
 
         <!-- Template Javascript -->
         <script src="{{ asset('assets/js/main.js') }}"></script>
+
     </body>
 
 </html>

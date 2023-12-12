@@ -104,6 +104,62 @@
     });
 
 
+     // Sticky Navbar
+     $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.navbar').addClass('navbar-scrolllll');
+        } else {
+            $('.navbar').removeClass('navbar-scrolllll');
+        }
+
+        
+        // Ubah warna teks navbar berdasarkan bagian yang aktif
+        $('.navbar .navbar-nav .nav-link').each(function () {
+            var targetSection = $($(this).attr('href'));
+            if (targetSection.length) {
+                if (
+                    targetSection.offset().top <= $(window).scrollTop() &&
+                    targetSection.offset().top + targetSection.outerHeight() > $(window).scrollTop()
+                ) {
+                    $(this).addClass('active');
+                } else {
+                    $(this).removeClass('active');
+                }
+            }
+        });
+
+    });
+
 
 })(jQuery);
 
+function handleScroll() {
+    var navbarLinks = document.querySelectorAll('.navbar .navbar-nav .nav-link');
+    var aboutSection = document.getElementById('about'); // Ganti dengan id dari bagian yang ingin di-highlight
+
+    // Hapus kelas 'active' dari semua elemen navbar
+    navbarLinks.forEach(function (link) {
+        link.classList.remove('active');
+    });
+
+    // Ubah warna teks navbar berdasarkan bagian yang aktif
+    navbarLinks.forEach(function (link) {
+        var targetSection = document.getElementById(link.getAttribute('href').substring(1));
+        if (targetSection) {
+            var targetSectionTop = targetSection.offsetTop;
+            var targetSectionBottom = targetSectionTop + targetSection.offsetHeight;
+
+            if (window.scrollY >= targetSectionTop && window.scrollY < targetSectionBottom) {
+                link.classList.add('active');
+            }
+        }
+    });
+
+    // Ubah warna navbar saat scroll
+    var navbar = document.querySelector('.navbar');
+    if (window.scrollY > 100) {
+        navbar.classList.add('navbar-scrolllll');
+    } else {
+        navbar.classList.remove('navbar-scrolllll');
+    }
+}

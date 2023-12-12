@@ -1,5 +1,7 @@
 /*** Spinner Start ***/
 
+
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -102,9 +104,48 @@
 
 
 /*** Navbar Start ***/
-.navbar .navbar-nav {
-    padding: 15px 0;
+.container-fluid {
+    padding: 0;
 }
+
+/* Navbar Sticky */
+.navbar-scrolllll {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+    background-color: var(--bs-primary); 
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.navbar-scrolllll .navbar-brand h1 {
+    color: var(--bs-white);
+}
+
+.navbar-scrolllll .navbar-nav .nav-link {
+    color: var(--bs-white) !important; 
+    padding: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+/* Navbar Sticky End */
+
+.navbar {
+    padding: 50px;
+}
+
+/* Tambahkan ini pada CSS yang sudah ada */
+.navbar .navbar-nav .nav-link.active {
+    color: var(--bs-green) !important;
+   
+}
+
+.navbar-scroll .navbar-nav .nav-link.active {
+    color: var(--bs-green) !important; /* sesuaikan dengan warna yang diinginkan */
+}
+
 
 .navbar .navbar-nav .nav-link {
     padding: 10px;
@@ -664,3 +705,6 @@
 }
 
 /*** Footer End ***/
+
+
+/* Login */
