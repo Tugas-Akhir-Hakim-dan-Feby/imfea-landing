@@ -1,8 +1,5 @@
 
 /*** Spinner Start ***/
-
-
-
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -313,7 +310,9 @@
   
     .carousel-item h1 {
         font-size: 40px !important;
+        
     }
+    
   
     .carousel-item p {
         font-size: 16px !important;
@@ -338,6 +337,16 @@
         font-size: 14px !important;
     }
   }
+
+  @media (max-width: 576px) {
+    .carousel-item h1 {
+        text-align: left !important;
+    }
+    /* .buto {
+      margin-bottom: 0px;
+    } */
+}
+
   
   .page-header {
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/carousel-1.jpg) center center no-repeat;

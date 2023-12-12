@@ -1,6 +1,5 @@
 @extends('frontend.layouts.main')
 @section('content')
-     
 
         <!-- Carousel Start -->
         <div class="container-fluid px-0">
@@ -15,10 +14,15 @@
                         <div class="carousel-caption">
                             <div class="container carousel-content">
                                 <h6 class="text-secondary h4 animated fadeInUp">Solusi Bimbel Terbaik</h6>
-                                <h1 class="text-white display-1 mb-4 animated fadeInRight">Agen Solusi Bimbel Inovatif</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
+                                <h1 class="mb-4 text-white display-1  animated fadeInRight">Agen Solusi Bimbel Inovatif</h1>
+                                <p class="mb-5 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
+
+                                <div class="mb-3">
                                 <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
+                                </div>
+
                                 <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Hubungi Kami</button></a>
+
                             </div>
                             
                         </div>
@@ -29,9 +33,14 @@
                             <div class="container carousel-content">
                                 <h6 class="text-secondary h4 animated fadeInUp">Solusi Bimbel Terbaik</h6>
                                 <h1 class="text-white display-1 mb-4 animated fadeInRight">Agen Solusi Bimbel Inovatif</h1>
-                                <p class="mb-4 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
-                                <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
+                                <p class="mb-5 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
+                            
+                                <div class="mb-3">
+                                    <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
+                                </div>
+
                                 <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Hubungi Kami</button></a>
+                            
                             </div>
                         </div>
                     </div>
@@ -564,7 +573,7 @@
                 <h1>Hubungi Kami</h1>
                 <p>Dengan senang hati kami siap membantu menjawab segala pertanyaan Anda.</p>                    
             </div>
-            <div class="contact-detail position-relative p-5">
+            <div class="contact-detail position-relative p-3">
                 <div class="row g-5 mb-5 justify-content-center">
                     <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
                         <div class="d-flex bg-light p-3 rounded">
@@ -602,12 +611,12 @@
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay=".3s">
-                        <div class="p-5 h-100 rounded contact-map">
+                        <div class="p-1 h-100 rounded contact-map">
                             <iframe  class="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.5205834931544!2d108.32026847475149!3d-6.32651629366299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ebc01eaaaaaab%3A0x6ef909d627eb01d7!2sAlun-Alun%20Indramayu!5e0!3m2!1sid!2sid!4v1702270084439!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
-                        <div class="p-5 rounded contact-form">
+                        <div class="p-3 rounded contact-form">
                             <div class="mb-4">
                                 <input type="text" class="form-control border-0 py-3" placeholder="Nama Anda">
                             </div>
