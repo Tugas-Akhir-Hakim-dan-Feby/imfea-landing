@@ -100,7 +100,7 @@
                         <h1 class="mb-4">Inovasi Pembelajaran di Bimbel HighCode</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
                         <p class="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
-                        <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">Selangkapnya</a>
+                        <a href="{{ route('about') }}" class="btn btn-secondary rounded-pill px-5 py-3 text-white">Selangkapnya</a>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
         <!-- About End -->
 
 
-        <!-- Services Start -->
+        <!-- webinar start -->
         <div class="container-fluid services py-5 mb-5">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
@@ -123,7 +123,7 @@
                                     <i class="fa fa-code fa-7x mb-4 text-primary"></i>
                                     <h4 class="mb-3">Web Design</h4>
                                     <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Selengkapnya</a>
+                                    <a href="{{ route('webinar') }}" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -192,10 +192,10 @@
                 </div>
             </div>
         </div>
-        <!-- Services End -->
+        <!-- webinar End -->
 
 
-        <!-- Project Start -->
+        <!-- kordinator Start -->
         <div class="container-fluid project py-5 mb-5">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
@@ -208,9 +208,10 @@
                             <div class="project-img">
                                 <img src="{{ asset('assets/img/project-1.jpg') }}" class="img-fluid w-100 rounded" alt="">
                                 <div class="project-content">
-                                    <a href="#" class="text-center">
-                                        <h4 class="text-secondary">Web design</h4>
-                                        <p class="m-0 text-white">Web Analysis</p>
+                                    <a href="{{ route('kordinator') }}" class="text-center">
+                                        <h4 class="text-secondary">Penanggung Jawab </h4>
+                                        <p class="m-0 text-white">Wilayah Indramayu</p>
+                                        <p class="m-0 text-white">Amirul Mukminin</p>
                                     </a>
                                 </div>
                             </div>
@@ -222,8 +223,9 @@
                                 <img src="{{ asset('assets/img/project-2.jpg') }}" class="img-fluid w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
-                                        <h4 class="text-secondary">Cyber Security</h4>
-                                        <p class="m-0 text-white">Cyber Security Core</p>
+                                        <h4 class="text-secondary">Penanggung Jawab </h4>
+                                        <p class="m-0 text-white">Wilayah Indramayu</p>
+                                        <p class="m-0 text-white">Amirul Mukminin</p>
                                     </a>
                                 </div>
                             </div>
@@ -235,8 +237,9 @@
                                 <img src="{{ asset('assets/img/project-3.jpg') }}" class="img-fluid w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
-                                        <h4 class="text-secondary">Mobile Info</h4>
-                                        <p class="m-0 text-white">Upcomming Phone</p>
+                                        <h4 class="text-secondary">Penanggung Jawab </h4>
+                                        <p class="m-0 text-white">Wilayah Indramayu</p>
+                                        <p class="m-0 text-white">Amirul Mukminin</p>
                                     </a>
                                 </div>
                             </div>
@@ -248,8 +251,9 @@
                                 <img src="{{ asset('assets/img/project-4.jpg') }}" class="img-fluid w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
-                                        <h4 class="text-secondary">Web Development</h4>
-                                        <p class="m-0 text-white">Web Analysis</p>
+                                        <h4 class="text-secondary">Penanggung Jawab </h4>
+                                        <p class="m-0 text-white">Wilayah Indramayu</p>
+                                        <p class="m-0 text-white">Amirul Mukminin</p>
                                     </a>
                                 </div>
                             </div>
@@ -261,8 +265,9 @@
                                 <img src="{{ asset('assets/img/project-5.jpg') }}" class="img-fluid w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
-                                        <h4 class="text-secondary">Digital Marketing</h4>
-                                        <p class="m-0 text-white">Marketing Analysis</p>
+                                        <h4 class="text-secondary">Penanggung Jawab </h4>
+                                        <p class="m-0 text-white">Wilayah Indramayu</p>
+                                        <p class="m-0 text-white">Amirul Mukminin</p>
                                     </a>
                                 </div>
                             </div>
@@ -274,8 +279,9 @@
                                 <img src="{{ asset('assets/img/project-6.jpg') }}" class="img-fluid w-100 rounded" alt="">
                                 <div class="project-content">
                                     <a href="#" class="text-center">
-                                        <h4 class="text-secondary">keyword Research</h4>
-                                        <p class="m-0 text-white">keyword Analysis</p>
+                                        <h4 class="text-secondary">Penanggung Jawab </h4>
+                                        <p class="m-0 text-white">Wilayah Indramayu</p>
+                                        <p class="m-0 text-white">Amirul Mukminin</p>
                                     </a>
                                 </div>
                             </div>
@@ -284,7 +290,7 @@
                 </div>
             </div>
         </div>
-        <!-- Project End -->
+        <!-- kordinator End -->
 
 
         <!-- Artikel Start -->
