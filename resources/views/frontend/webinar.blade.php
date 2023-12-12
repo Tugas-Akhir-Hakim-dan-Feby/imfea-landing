@@ -60,82 +60,26 @@
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
                     <h5 class="text-primary">Webinar Kami</h5>
-                    <h1>Services Built Specifically For Your Business</h1>
+                    <h1>Temukan Masa Depan Bersama Webinar Kami</h1>
                 </div>
-                <div class="row g-5 services-inner">
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                <div class="row g-5 justify-content-center">
+                    <div class="col-lg-14 col-xl-12 wow fadeIn" data-wow-delay=".3s">
                         <div class="services-item bg-light">
                             <div class="p-4 text-center services-content">
                                 <div class="services-content-icon">
                                     <i class="fa fa-code fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Web Design</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                    <h4 class="mb-3">Webinar <br> Web Design</h4>
+                                    <p class="mb-1">Tempat : Gedung Putih Jakarta Pusat</p>
+                                    <p class="mb-1">Pemateri : Hakim Asrori</p>
+                                    <p class="mb-3">Waktu : Jam 12.00 WIB</p>
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sed voluptate alias ratione. Quisquam, non dicta debitis ducimus vel magni beatae aut perferendis. Ad velit, blanditiis veritatis ab ipsam quod quos labore odit sapiente nostrum architecto iusto accusamus. Doloribus reiciendis cupiditate maiores aliquam fuga et, consequuntur quae hic, odio recusandae dolor error, dolorum itaque delectus sit necessitatibus. Ipsa neque soluta voluptatum inventore iusto consectetur quidem perspiciatis officiis aliquid tenetur aperiam nulla, quis, cumque assumenda repellat tempore molestiae ex sit quod rerum sequi quo quae dolores! Nisi eius consequuntur aspernatur fugit veritatis expedita beatae commodi amet laborum assumenda, sint incidunt ad eos, maiores voluptates perferendis nemo soluta similique minima. Dolore reiciendis ullam id nam. Fuga amet possimus veritatis. Quisquam temporibus provident cumque quae reprehenderit, autem earum soluta maxime nemo. Incidunt excepturi aperiam repellendus consectetur, ducimus maxime eligendi molestias est saepe accusamus nemo quisquam aliquid sint ratione reiciendis quam enim! Perferendis doloremque, inventore doloribus recusandae deserunt cumque debitis aperiam dignissimos, quisquam molestias non tenetur nemo itaque reiciendis maiores eius dolorem? Doloremque, voluptatem porro. Odio similique obcaecati, adipisci asperiores consequatur delectus blanditiis minus quisquam ea repellat nam? Consequatur vero deleniti officiis dolore labore. Enim debitis omnis saepe corporis, necessitatibus sit deserunt voluptates rerum.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-file-code fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Web Development</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">UI/UX Design</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Web Cecurity</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Digital Marketing</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fas fa-laptop fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Programming</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                  
+
                 </div>
             </div>
         </div>

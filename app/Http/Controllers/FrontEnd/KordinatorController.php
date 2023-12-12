@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class KordinatorController extends Controller
 {
     public function index(){
-        return view('frontend.project');
+        return view('frontend.kordinator');
     }
 }
