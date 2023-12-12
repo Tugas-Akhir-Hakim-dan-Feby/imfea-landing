@@ -5,12 +5,12 @@
         <!-- Page Header Start -->
         <div class="container-fluid page-header py-5">
             <div class="container text-center py-5">
-                <h1 class="display-2 text-white mb-4 animated slideInDown">Testimonial</h1>
+                <h1 class="display-2 text-white mb-4 animated slideInDown">Tim Pengajar Kami</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item" aria-current="page">Testimonial</li>
+                        <li class="breadcrumb-item" aria-current="page">Pengajar</li>
                     </ol>
                 </nav>
             </div>
@@ -56,7 +56,7 @@
         <div class="container-fluid testimonial py-5 my-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h5 class="text-primary">Our Testimonial</h5>
+                    <h5 class="text-primary">Tim Pengajar Kami</h5>
                     <h1>Our Client Saying!</h1>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">

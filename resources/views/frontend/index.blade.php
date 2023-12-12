@@ -97,7 +97,7 @@
                     </div>
                     <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
                         <h5 class="text-primary">Tentang Kami</h5>
-                        <h1 class="mb-4">About HighTech Agency And It's Innovative IT Solutions</h1>
+                        <h1 class="mb-4">Inovasi Pembelajaran di Bimbel HighCode</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
                         <p class="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
                         <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
@@ -567,7 +567,7 @@
                             </div>
                             <div class="ms-3">
                                 <h4 class="text-primary">Alamat Kami</h4>
-                                <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" class="h5">23 rank Str, NY</a>
+                                <a href="https://goo.gl/maps/Zd4BCynmTb98ivUJ6" target="_blank" class="h5">30 Kenari, Indramayu</a>
                             </div>
                         </div>
                     </div>
@@ -589,7 +589,7 @@
                             </div>
                             <div class="ms-3">
                                 <h4 class="text-primary">Email Kami</h4>
-                                <a class="h5" href="mailto:info@example.com" target="_blank">info@example.com</a>
+                                <a class="h5" href="mailto:info@example.com" target="_blank">info@gmail.com</a>
                             </div>
                         </div>
                     </div>

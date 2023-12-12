@@ -4,14 +4,16 @@ use App\Http\Controllers\FrontEnd\AboutController;
 use App\Http\Controllers\FrontEnd\ArtikelController;
 use App\Http\Controllers\FrontEnd\Auth\LoginController;
 use App\Http\Controllers\FrontEnd\Auth\RegisterController;
-use App\Http\Controllers\FrontEnd\BlogController;
 use App\Http\Controllers\FrontEnd\ContactController;
+use App\Http\Controllers\FrontEnd\DetailPengajarController;
 use App\Http\Controllers\FrontEnd\HomeController;
+use App\Http\Controllers\FrontEnd\KordinatorController;
+use App\Http\Controllers\FrontEnd\LayananController;
 use App\Http\Controllers\FrontEnd\PagesController;
 use App\Http\Controllers\FrontEnd\ProjectController;
-use App\Http\Controllers\FrontEnd\ServiceController;
 use App\Http\Controllers\FrontEnd\TeamController;
 use App\Http\Controllers\FrontEnd\TestimonialController;
+use App\Http\Controllers\FrontEnd\WebinarController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,11 +35,11 @@ Route::get('/login', [LoginController::class, 'login'])->name('login');
 Route::get('/register', [RegisterController::class, 'register'])->name('register');
 
 // Tampilan Utama
-Route::get('/project', [ProjectController::class, 'index'])->name('project');
-Route::get('/service', [ServiceController::class, 'index'])->name('service');
+Route::get('/kordinator', [KordinatorController::class, 'index'])->name('kordinator');
+Route::get('/webinar', [WebinarController::class, 'index'])->name('webinar');
 Route::get('/team', [TeamController::class, 'index'])->name('team');
-Route::get('/testimonial', [TestimonialController::class, 'index'])->name('testimonial');
+Route::get('/detail-pengejar', [DetailPengajarController::class, 'index'])->name('detail_pengejar');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/detail-artikel', [ArtikelController::class, 'index'])->name('detail_artikel');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
-Route::get('/pages', [PagesController::class, 'index'])->name('pages');
+Route::get('/layanan', [LayananController::class, 'index'])->name('layanan');

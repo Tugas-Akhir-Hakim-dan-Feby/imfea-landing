@@ -26,6 +26,7 @@
 
         <!-- Template Stylesheet -->
         <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/styleke2.css') }}" rel="stylesheet">
 
         
     </head>

@@ -31,28 +31,38 @@
     
         <nav class="navbar navbar-dark navbar-expand-lg py-0 navbar-scrolllll ">
             <a href="{{ route('home') }}" class="navbar-brand">
-                <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Class</span> </h1>
+                <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Code</span> </h1>
             </a>
             <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-0">
-                    <a href="{{ route('home') }}" class="nav-item nav-link {{ Request::routeIs('home*') ? 'active' : '' }} ">Home</a>
+                    <a href="{{ route('home') }}" class="nav-item nav-link ">Home</a>
+                    {{--  {{ Request::routeIs('home*') ? 'active' : '' }} --}}
 
-                    <a href="{{ route('about') }}" class="nav-item nav-link {{ Request::is('about*') ? 'active' : '' }}">Tentang</a>
-                    <a href="{{ route('service') }}" class="nav-item nav-link {{ Request::is('service*') ? 'active' : '' }}">Webinar</a>
-                    <a href="{{ route('project') }}" class="nav-item nav-link {{ Request::is('project*') ? 'active' : '' }}">Kordinator</a>
+                    <a href="{{ route('about') }}" class="nav-item nav-link ">Tentang</a>
+                    {{-- {{ Request::is('about*') ? 'active' : '' }} --}}
+
+                    <a href="{{ route('webinar') }}" class="nav-item nav-link ">Webinar</a>
+                    {{-- {{ Request::is('service*') ? 'active' : '' }} --}}
+
+                    <a href="{{ route('kordinator') }}" class="nav-item nav-link ">Kordinator</a>
+                    {{-- {{ Request::is('project*') ? 'active' : '' }} --}}
+
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Layanan</a>
                         <div class="dropdown-menu rounded">
-                            <a href="{{ route('detail_artikel') }}" class="dropdown-item {{ Request::routeIs('detail_artikel*') ? 'active' : '' }}">Artikel</a>
+                            <a href="{{ route('detail_artikel') }}" class="dropdown-item {{ Request::routeIs('detail_artikel*') ? 'active' : '' }}">Detail Artikel</a>
                             {{-- <a href="{{ route('team') }}" class="dropdown-item {{ Request::routeIs('team*') ? 'active' : '' }}">Our Team</a> --}}
-                            <a href="{{ route('testimonial') }}" class="dropdown-item {{ Request::routeIs('testimonial*') ? 'active' : '' }}">Pengajar</a>
+                            <a href="{{ route('detail_pengejar') }}" class="dropdown-item {{ Request::routeIs('detail_pengejar*') ? 'active' : '' }}">Detail Pengajar</a>
                             {{-- <a href="{{ route('pages') }}" class="dropdown-item {{ Request::routeIs('pages*') ? 'active' : '' }}">404 Page</a> --}}
                         </div>
                     </div>
-                    <a href="{{ route('contact') }}" class="nav-item nav-link {{ Request::is('contact*') ? 'active' : '' }}" class="nav-item nav-link">Kontak</a>
+                    
+                    <a href="{{ route('contact') }}" class="nav-item nav-link {" class="nav-item nav-link">Kontak</a>
+                    {{-- { Request::is('contact*') ? 'active' : '' }} --}}
+
                 </div>
             </div>
 
