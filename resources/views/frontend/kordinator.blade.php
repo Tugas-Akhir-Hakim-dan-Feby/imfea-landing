@@ -68,11 +68,12 @@
                                 <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle border border-4 border-white mb-4" alt="">
                                 <h5 class="mb-3" style="font-size: 2rem;">Hubungi <br> Riski Ahmad Ilham</h5>
                                 <span class="text-secondary d-block mb-4" style="font-size: 1.2rem;">No Hp : +62895341206291</span>
-                                <p class="mt-4" style="font-size: 1.3rem;">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                                <p class="mt-4" style="font-size: 1.3rem; text-align:justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatum adipisci eaque similique dolores omnis dicta illum nesciunt minima eum amet, rerum nemo consectetur sed at ex minus ipsum, voluptatem eligendi, quas earum modi iste alias! Esse, ratione! Molestiae in inventore quas aspernatur id? Accusantium, recusandae? Voluptate, tempore illum nobis modi harum ipsum perferendis commodi ipsam quia consequatur, possimus necessitatibus dolores provident similique quasi? Ipsum reprehenderit eaque commodi odio asperiores harum expedita excepturi perspiciatis ipsa, facere iste illo beatae ex eius voluptates perferendis. Harum, commodi? Quam necessitatibus totam atque maxime excepturi itaque sint, quas, architecto, ipsum laborum non fugit quibusdam suscipit quos id dolor similique illo est omnis consequatur maiores deleniti incidunt. Optio id cum totam quam maxime voluptatibus quis sunt adipisci vitae provident deserunt quae sit iure, dolores eius unde assumenda? Aliquam in atque eum magni, nesciunt adipisci eaque illum quas laboriosam nostrum voluptatibus sed ex corporis earum quisquam beatae doloribus ipsum error maiores inventore ullam nisi! Ipsum reiciendis, natus odio accusantium soluta maxime sit voluptatum animi, at libero architecto, dolor possimus aliquam explicabo ducimus atque. Illum maxime perspiciatis amet accusamus nemo animi, ex atque inventore praesentium quidem rem at minus repellendus repellat harum veritatis tempore magnam fugiat molestias.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
         <!-- Project End -->

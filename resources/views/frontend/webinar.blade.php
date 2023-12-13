@@ -59,22 +59,55 @@
                     <h1>Temukan Masa Depan Bersama Webinar Kami</h1>
                 </div>
                 <div class="row g-5 justify-content-center">
-                    <div class="col-lg-14 col-xl-12 wow fadeIn" data-wow-delay=".3s">
-                        <div class=" bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    {{-- <i class="fa fa-code fa-7x mb-4 text-primary"></i> --}}
-                                    <h4 class="mb-3">Webinar <br> Web Design</h4>
-                                    <p class="mb-1">Tempat : Gedung Putih Jakarta Pusat</p>
-                                    <p class="mb-1">Pemateri : Hakim Asrori</p>
-                                    <p class="mb-3">Waktu : Jam 12.00 WIB</p>
-                                    <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis laboriosam asperiores eos, ad dolorum beatae. Officia nam facere modi error culpa ex? Velit quod sequi, repudiandae suscipit expedita voluptatem hic exercitationem architecto quibusdam cupiditate veritatis? Architecto maiores impedit, in explicabo possimus officiis numquam! Veritatis architecto consectetur quisquam aliquam ipsum cum corrupti quam! Consectetur assumenda voluptatum, reprehenderit blanditiis nesciunt similique quis ipsum praesentium esse ut aliquid, dolorem eligendi architecto repudiandae corporis repellendus omnis nostrum explicabo cumque! Assumenda perferendis voluptatum, eius veritatis excepturi nostrum dolore maxime dicta? Veniam tempora, modi, illum sint maxime neque ad repudiandae maiores quae dolor fuga velit totam, asperiores hic laudantium voluptate nam doloremque? Impedit, ad, non, nesciunt eum numquam est officia eligendi nulla hic cumque soluta? Animi consequatur impedit iste ex fugiat quia cum, ducimus necessitatibus ipsum cumque explicabo deleniti minus doloremque. Aut, sequi. Magnam numquam eligendi architecto ullam magni eos facilis nihil quisquam. Sequi sed praesentium eveniet rerum sint molestias recusandae, libero corporis nostrum sit deserunt ipsam neque ipsum dolorem, ut, ea nemo ex accusamus eius. Saepe ea, libero at commodi facilis laboriosam quidem modi tempore nisi et culpa ullam odio itaque odit quisquam laborum sequi ratione doloremque? Porro enim sit neque dolorem numquam minus. Quia est itaque non rerum at eveniet labore blanditiis, illo fugiat sunt officia in? Necessitatibus, dicta. Maiores asperiores eius corporis! Dolorum a veritatis culpa in, dolor et soluta exercitationem est dolores saepe reiciendis sapiente eius, pariatur asperiores molestias quibusdam. Totam enim at nesciunt iste accusantium autem deleniti excepturi aliquid! Explicabo ipsum similique obcaecati quasi illum accusantium, quia placeat? Placeat accusantium distinctio sequi nihil iste tenetur consequatur ad maxime aperiam, illo architecto delectus ut hic nam minima debitis alias fugit iure deleniti id velit totam ipsam dignissimos. Iste sapiente unde fuga eaque sunt voluptatum at delectus? Quam debitis, fugiat quia pariatur ex aperiam tempora amet beatae dolorum vero quibusdam omnis! Incidunt natus nulla animi inventore at modi, quo, vero suscipit porro aperiam eligendi voluptas ullam ex consequuntur itaque. Voluptates animi debitis in temporibus quae quisquam, obcaecati modi, vel laborum consectetur nesciunt veniam voluptatibus minima eius cumque repudiandae amet aperiam et vitae autem alias illum sint totam. At, ullam, aperiam laboriosam mollitia sunt esse blanditiis aliquid recusandae totam facilis accusantium explicabo omnis aspernatur assumenda quasi qui vero asperiores possimus. Corporis harum facilis et distinctio excepturi ut architecto libero repellendus dolorem adipisci voluptate sapiente, vel iusto quis exercitationem in! Hic quasi totam minus esse autem repellat nihil sed corrupti eveniet temporibus ipsa ea provident et sequi laudantium consequatur perferendis, iste assumenda facere pariatur, quaerat repudiandae? Maiores impedit nam unde vitae repudiandae esse fuga fugiat optio, porro praesentium ab accusamus quod sit suscipit aut, quia quidem, eveniet quae? Quis ducimus praesentium ut eveniet nam hic inventore similique, vero excepturi perspiciatis sit temporibus! Laboriosam placeat dolores voluptatem. Repudiandae adipisci beatae quisquam blanditiis minima modi inventore similique obcaecati deserunt voluptatibus doloribus, dolor ipsam ea voluptatem reiciendis ab amet. Assumenda accusantium quidem modi, iure, dolore nam magni dolores ducimus et ex sapiente eos, totam commodi. Fuga, atque dignissimos dolore quaerat alias a dolorem similique numquam iure nemo modi iste expedita recusandae, provident accusamus suscipit perspiciatis rem! Fugiat ratione nisi neque quae nesciunt et. Quidem incidunt ipsam sed cum earum, voluptatibus minus deserunt pariatur? Quasi rem eveniet pariatur commodi molestiae. Totam culpa porro earum mollitia provident magni odit cupiditate assumenda quisquam excepturi iste, pariatur velit reiciendis voluptates nihil aliquid. Dolores perferendis optio dignissimos nisi, quod laboriosam!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>        
+                    <div class="col-lg-16 col-xl-12 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="{{ asset('assets/img/blog-1.jpg') }}" class="img-fluid rounded w-100" alt="">
+                            {{-- <span class="position-absolute px-2 py-2 bg-primary text-white rounded" style="top: 20px; right: 25px; font-size: 1.5rem;">Indramayu</span> --}}
+        
+                            <div class="blog-content text-center px-5 py-5">
+                                {{-- <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle border border-4 border-white mb-4" alt=""> --}}
+                                {{-- <h5 class="mb-3" style="font-size: 2rem;">Hubungi <br> Riski Ahmad Ilham</h5> --}}
+                                {{-- <span class="text-secondary d-block mb-4" style="font-size: 1.2rem;">No Hp : +62895341206291</span> --}}
 
+                                <span class="d-block mb-4" style="font-size: 25px; text-align:justify; font-weight:bold; color:#6B5CFF;">Info event : </span>
+                                <div style="display: flex; justify-content: space-between;">
+                                    <small style="text-align: justify; font-size:20px;">
+                                        <i class="fa fa-calendar me-2" style="color: #6B5CFF;"></i>
+                                         &nbsp;Juli 
+                                    </small>
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <small style="text-align: justify; font-size:20px;">
+                                        <i class="fa fa-clock me-2" style="color: #6B5CFF;"></i>
+                                        &nbsp;14:00 s/d 15:30 WIB
+                                    </small> 
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <small style="text-align: justify; font-size:20px;">
+                                        <i class="fa fa-thumbtack me-2" style="color: #6B5CFF;"></i>
+                                        &nbsp; Online
+                                    </small> 
+                                </div>
+
+                                <div style="display: flex; justify-content: space-between;">
+                                    <small style="text-align: justify; font-size:20px;">
+                                        <i class="fa fa-certificate me-2" style="color: #6B5CFF;"></i>
+                                        &nbsp;Sertifikat
+                                    </small> 
+                                </div>
+                                
+                                <p class="mt-4 mb-5"  style="font-size: 1.3rem; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam distinctio eaque quia non voluptas, eligendi consequuntur earum nobis sed omnis iste exercitationem porro. Incidunt sequi cupiditate ex nulla libero iste labore est voluptates repellat rerum fuga corrupti, nesciunt illum eius tempore inventore quidem quam deserunt? Beatae tempore optio nisi mollitia quaerat cum quae ipsa perspiciatis dicta, iusto ut dolor unde culpa eveniet nobis, rem similique reprehenderit delectus fugiat eaque, voluptate in? Cumque, accusantium fugiat odit, beatae neque tempore deleniti a qui nisi odio culpa cupiditate laborum consequatur? Accusamus, maiores natus? Rem mollitia omnis accusantium doloribus quo dolore laboriosam maiores quos!</p>
+
+                                <button type="submit" style="display: flex; justify-content: space-between;" class="btn btn-primary">Daftar Sekarang</button>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
         </div>
         <!-- Services End -->

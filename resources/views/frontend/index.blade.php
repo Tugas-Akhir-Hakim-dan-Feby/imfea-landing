@@ -125,79 +125,146 @@
                     <h1>Temukan Masa Depan Bersama Webinar Kami</h1>
                 </div>
                 <div class="row g-5 services-inner">
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-code fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Web Design</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="{{ route('webinar') }}" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Selengkapnya</a>
+
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="{{ asset('assets/img/blog-1.jpg') }}" class="img-fluid w-100 rounded-top" alt="">
+                            {{-- <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span> --}}
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                              
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: 90px;">
+                                {{-- <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle border border-4 border-white mb-3" alt=""> --}}
+                                <h6 class="">Membangun Data Warehouse yang Efektif untuk keberhasilan Organisasi</h6>
+                                {{-- <span class="text-secondary">24 March 2023</span> --}}
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                                <div class="blog-icon btn btn-secondary px-2 rounded-pill my-auto mb-3">
+                                    <a href="{{ route('webinar') }}" class="btn text-white">Selengkapnya</a>
                                 </div>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                {{-- <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a> --}}
+                                {{-- <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> --}}
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-file-code fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Web Development</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Selengkapnya</a>
+
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="{{ asset('assets/img/blog-1.jpg') }}" class="img-fluid w-100 rounded-top" alt="">
+                            {{-- <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span> --}}
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                              
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: 90px;">
+                                {{-- <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle border border-4 border-white mb-3" alt=""> --}}
+                                <h6 class="">Membangun Data Warehouse yang Efektif untuk keberhasilan Organisasi</h6>
+                                {{-- <span class="text-secondary">24 March 2023</span> --}}
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                                <div class="blog-icon btn btn-secondary px-2 rounded-pill my-auto mb-3">
+                                    <a href="{{ route('webinar') }}" class="btn text-white">Selengkapnya</a>
                                 </div>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                {{-- <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a> --}}
+                                {{-- <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> --}}
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">UI/UX Design</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Selengkapnya</a>
+
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="{{ asset('assets/img/blog-1.jpg') }}" class="img-fluid w-100 rounded-top" alt="">
+                            {{-- <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span> --}}
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                              
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: 90px;">
+                                {{-- <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle border border-4 border-white mb-3" alt=""> --}}
+                                <h6 class="">Membangun Data Warehouse yang Efektif untuk keberhasilan Organisasi</h6>
+                                {{-- <span class="text-secondary">24 March 2023</span> --}}
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                                <div class="blog-icon btn btn-secondary px-2 rounded-pill my-auto mb-3">
+                                    <a href="{{ route('webinar') }}" class="btn text-white">Selengkapnya</a>
                                 </div>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                {{-- <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a> --}}
+                                {{-- <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> --}}
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fas fa-user-secret fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Web Cecurity</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Selengkapnya</a>
+
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="{{ asset('assets/img/blog-1.jpg') }}" class="img-fluid w-100 rounded-top" alt="">
+                            {{-- <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span> --}}
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                              
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: 90px;">
+                                {{-- <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle border border-4 border-white mb-3" alt=""> --}}
+                                <h6 class="">Membangun Data Warehouse yang Efektif untuk keberhasilan Organisasi</h6>
+                                {{-- <span class="text-secondary">24 March 2023</span> --}}
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                                <div class="blog-icon btn btn-secondary px-2 rounded-pill my-auto mb-3">
+                                    <a href="{{ route('webinar') }}" class="btn text-white">Selengkapnya</a>
                                 </div>
-                                
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                {{-- <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a> --}}
+                                {{-- <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> --}}
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Digital Marketing</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Selengkapnya</a>
+
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="{{ asset('assets/img/blog-1.jpg') }}" class="img-fluid w-100 rounded-top" alt="">
+                            {{-- <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span> --}}
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                              
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: 90px;">
+                                {{-- <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle border border-4 border-white mb-3" alt=""> --}}
+                                <h6 class="">Membangun Data Warehouse yang Efektif untuk keberhasilan Organisasi</h6>
+                                {{-- <span class="text-secondary">24 March 2023</span> --}}
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                                <div class="blog-icon btn btn-secondary px-2 rounded-pill my-auto mb-3">
+                                    <a href="{{ route('webinar') }}" class="btn text-white">Selengkapnya</a>
                                 </div>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                {{-- <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a> --}}
+                                {{-- <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> --}}
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="services-item bg-light">
-                            <div class="p-4 text-center services-content">
-                                <div class="services-content-icon">
-                                    <i class="fas fa-laptop fa-7x mb-4 text-primary"></i>
-                                    <h4 class="mb-3">Programming</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Selengkapnya</a>
+
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="{{ asset('assets/img/blog-1.jpg') }}" class="img-fluid w-100 rounded-top" alt="">
+                            {{-- <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span> --}}
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                              
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: 90px;">
+                                {{-- <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle border border-4 border-white mb-3" alt=""> --}}
+                                <h6 class="">Membangun Data Warehouse yang Efektif untuk keberhasilan Organisasi</h6>
+                                {{-- <span class="text-secondary">24 March 2023</span> --}}
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                                <div class="blog-icon btn btn-secondary px-2 rounded-pill my-auto mb-3">
+                                    <a href="{{ route('webinar') }}" class="btn text-white">Selengkapnya</a>
                                 </div>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                {{-- <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a> --}}
+                                {{-- <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> --}}
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
@@ -310,10 +377,12 @@
                     <h1>Update Terbaru Artikel Kami</h1>
                 </div>
                 <div class="row g-5 justify-content-center">
-                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                    
+                    
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
                         <div class="blog-item position-relative bg-light rounded">
-                            <img src="{{ asset('assets/img/blog-1.jpg') }}" class="img-fluid w-100 rounded-top" alt="">
-                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span>
+                            <img src="{{ asset('assets/img/blog-2.jpg') }}" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Development</span>
                             <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
                                 <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
                                     <a href="{{ route('detail_artikel') }}" class="btn text-white">Selengkapnya</a>
@@ -321,16 +390,16 @@
                             </div>
                             <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
                                 <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
-                                <h5 class="">By Imam Arif</h5>
-                                <span class="text-secondary">24 March 2023</span>
+                                <h5 class="">By Riski Zulhak</h5>
+                                <span class="text-secondary">23 April 2023</span>
                                 <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
                             </div>
                             <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                {{-- <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a> --}}
                                 <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
                         <div class="blog-item position-relative bg-light rounded">
                             <img src="{{ asset('assets/img/blog-2.jpg') }}" class="img-fluid w-100 rounded-top" alt="">
@@ -351,6 +420,8 @@
                             </div>
                         </div>
                     </div>
+
+
                     <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".7s">
                         <div class="blog-item position-relative bg-light rounded">
                             <img src="{{ asset('assets/img/blog-3.jpg') }}" class="img-fluid w-100 rounded-top" alt="">
