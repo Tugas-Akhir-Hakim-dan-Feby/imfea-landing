@@ -4,9 +4,9 @@
         <!-- Carousel Start -->
         <div class="container-fluid px-0">
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                <ol class="carousel-indicators" style="display: none">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" ></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
@@ -45,14 +45,17 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev" aria-label="First slide">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next"  aria-label="Second slide">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+                
+                
             </div>
         </div>
         <!-- Carousel End -->

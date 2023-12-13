@@ -299,6 +299,12 @@
   }
   
   @media (max-width: 992px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 60px;
+        height: 40px;
+    }
+
     .carousel-item {
         min-height: 500px;
     }
@@ -320,6 +326,8 @@
   }
   
   @media (max-width: 768px) {
+   
+
     .carousel-item {
         min-height: 400px;
     }
@@ -337,15 +345,6 @@
         font-size: 14px !important;
     }
   }
-
-  @media (max-width: 576px) {
-    .carousel-item h1 {
-        text-align: left !important;
-    }
-    /* .buto {
-      margin-bottom: 0px;
-    } */
-}
 
   
   .page-header {

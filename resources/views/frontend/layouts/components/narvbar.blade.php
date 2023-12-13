@@ -68,9 +68,9 @@
 
             <div class="d-none d-xl-flex flex-shirink-1 ms-3">
                 <div class="d-flex align-items-center justify-content-center me-4">
-                    <a href="{{ route('login') }}" class="btn btn-sm btn-outline-light me-2">Login</a>
-                    <a href="{{ route('register') }}" class="btn btn-sm  btn-outline-light me-2">Register</a>
-                </div>
+                    <a href="{{ route('login') }}" class="btn btn-sm btn-outline-light me-2 d-sm-block">Login</a>
+                    <a href="{{ route('register') }}" class="btn btn-sm btn-outline-light">Register</a>
+                </div>                
             </div>
 
         </nav>
