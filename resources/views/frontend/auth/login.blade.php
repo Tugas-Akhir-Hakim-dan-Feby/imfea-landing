@@ -9,9 +9,6 @@
                 <i class="bi bi-arrow-left"></i> 
             </a>
         </div>
-        
-     
-
         <div class="login-container">
           
             <form class="form-login" action="index.html">

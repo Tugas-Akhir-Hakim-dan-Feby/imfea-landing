@@ -63,14 +63,13 @@
                     <a href="{{ route('contact') }}" class="nav-item nav-link {" class="nav-item nav-link">Kontak</a>
                     {{-- { Request::is('contact*') ? 'active' : '' }} --}}
 
-                </div>
-            </div>
+                    <div class=" d-xl-flex flex-shirink-1 ms-2 align-items-center justify-content-center me-4">
+                        <a href="{{ route('login') }}" class="btn btn-sm btn-outline-light me-2 d-sm-block">Login</a>
+                        <br>
+                        <a href="{{ route('register') }}" class="btn btn-sm btn-outline-light">Register</a>
+                    </div>   
 
-            <div class="d-none d-xl-flex flex-shirink-1 ms-3">
-                <div class="d-flex align-items-center justify-content-center me-4">
-                    <a href="{{ route('login') }}" class="btn btn-sm btn-outline-light me-2 d-sm-block">Login</a>
-                    <a href="{{ route('register') }}" class="btn btn-sm btn-outline-light">Register</a>
-                </div>                
+                </div>
             </div>
 
         </nav>

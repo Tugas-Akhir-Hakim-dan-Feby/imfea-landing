@@ -227,6 +227,13 @@ a:hover {
         grid-template-columns: 1fr;
     }
 
+    form {
+        width: 100%;
+        max-width: 400px; /* Sesuaikan lebar maksimum sesuai kebutuhan */
+        margin-right: 30px;
+        margin-top: 60px;
+    }
+
     .img {
         display: none;
     }
@@ -243,7 +250,7 @@ a:hover {
     .form-login {
         padding: 40px;
         background-color: #fff;
-        width: 420px;
+        width: 400px;
         border-radius: 8px;
         box-shadow: 3px 3px 15px rgba(88, 34, 160, 0.2);
     }
