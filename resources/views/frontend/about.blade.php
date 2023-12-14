@@ -24,25 +24,25 @@
             <div class="row">
                 <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
                     <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value">99</h1>
+                        <h1 class="me-3 text-secondary counter-value">99</h1>
                         <h5 class="text-white mt-1">Berhasil Mendapatkan Penghargaan Pendidikan</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
                     <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value">25</h1>
+                        <h1 class="me-3 text-secondary counter-value">25</h1>
                         <h5 class="text-white mt-1">Orang Terdaftar Secara Khsusus</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
                     <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value">50</h1>
+                        <h1 class="me-3 text-secondary counter-value">50</h1>
                         <h5 class="text-white mt-1">Total Sukses Mencapai Tujuan</h5>
                     </div>
                 </div>
                 <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
                     <div class="d-flex counter">
-                        <h1 class="me-3 text-primary counter-value">120</h1>
+                        <h1 class="me-3 text-secondary counter-value">120</h1>
                         <h5 class="text-white mt-1">Total Orang Yang Sudah Bekerja</h5>
                     </div>
                 </div>

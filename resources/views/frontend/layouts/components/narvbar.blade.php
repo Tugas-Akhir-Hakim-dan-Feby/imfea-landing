@@ -31,7 +31,8 @@
     
         <nav class="navbar navbar-dark navbar-expand-lg py-0 navbar-scrolllll ">
             <a href="{{ route('home') }}" class="navbar-brand">
-                <h1 class="text-white fw-bold d-block">High<span class="text-secondary">Code</span> </h1>
+                <h1 class="text-white fw-bold d-block">IMFEA </h1>
+                {{-- <img src="{{ asset('assets/img/logo-membercard.png') }}" width="150" alt=""> --}}
             </a>
             <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -50,23 +51,26 @@
                     <a href="{{ route('kordinator') }}" class="nav-item nav-link ">Kordinator</a>
                     {{-- {{ Request::is('project*') ? 'active' : '' }} --}}
 
-                    <div class="nav-item dropdown">
+                    <a href="{{ route('detail_artikel') }}" class="nav-item nav-link ">Artikel</a>
+                    {{-- {{ Request::is('project*') ? 'active' : '' }} --}}
+
+                    {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Layanan</a>
                         <div class="dropdown-menu rounded">
                             <a href="{{ route('detail_artikel') }}" class="dropdown-item {{ Request::routeIs('detail_artikel*') ? 'active' : '' }}">Detail Artikel</a>
-                            {{-- <a href="{{ route('team') }}" class="dropdown-item {{ Request::routeIs('team*') ? 'active' : '' }}">Our Team</a> --}}
+                            <a href="{{ route('team') }}" class="dropdown-item {{ Request::routeIs('team*') ? 'active' : '' }}">Our Team</a>
                             <a href="{{ route('detail_pengejar') }}" class="dropdown-item {{ Request::routeIs('detail_pengejar*') ? 'active' : '' }}">Detail Pengajar</a>
-                            {{-- <a href="{{ route('pages') }}" class="dropdown-item {{ Request::routeIs('pages*') ? 'active' : '' }}">404 Page</a> --}}
+                            <a href="{{ route('pages') }}" class="dropdown-item {{ Request::routeIs('pages*') ? 'active' : '' }}">404 Page</a>
                         </div>
-                    </div>
+                    </div> --}}
                     
                     <a href="{{ route('contact') }}" class="nav-item nav-link {" class="nav-item nav-link">Kontak</a>
                     {{-- { Request::is('contact*') ? 'active' : '' }} --}}
 
                     <div class=" d-xl-flex flex-shirink-1 ms-2 align-items-center justify-content-center me-4">
-                        <a href="{{ route('login') }}" class="btn btn-sm btn-outline-light me-2 d-sm-block">Login</a>
+                        <a href="https://apps.imfea.net/auth/login" class="btn btn-sm btn-outline-light me-2 d-sm-block">Login</a>
                         <br>
-                        <a href="{{ route('register') }}" class="btn btn-sm btn-outline-light">Register</a>
+                        <a href="https://apps.imfea.net/auth/register" class="btn btn-sm btn-outline-light">Register</a>
                     </div>   
 
                 </div>

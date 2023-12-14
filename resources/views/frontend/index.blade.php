@@ -18,7 +18,7 @@
                                 <p class="mb-5 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
 
                                 <div class="mb-3">
-                                <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
+                                <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-secondary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
                                 </div>
 
                                 <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Hubungi Kami</button></a>
@@ -36,7 +36,7 @@
                                 <p class="mb-5 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
                             
                                 <div class="mb-3">
-                                    <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
+                                    <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn .btn-secondary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
                                 </div>
 
                                 <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Hubungi Kami</button></a>
@@ -67,25 +67,25 @@
                 <div class="row">
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">99</h1>
+                            <h1 class="me-3 text-secondary counter-value">99</h1>
                             <h5 class="text-white mt-1">Berhasil Mendapatkan Penghargaan Pendidikan</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">25</h1>
+                            <h1 class="me-3 text-secondary counter-value">25</h1>
                             <h5 class="text-white mt-1">Orang Terdaftar Secara Khsusus</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">50</h1>
+                            <h1 class="me-3 text-secondary counter-value">50</h1>
                             <h5 class="text-white mt-1">Total Sukses Mencapai Tujuan</h5>
                         </div>
                     </div>
                     <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
                         <div class="d-flex counter">
-                            <h1 class="me-3 text-primary counter-value">120</h1>
+                            <h1 class="me-3 text-secondary counter-value">120</h1>
                             <h5 class="text-white mt-1">Total Orang Yang Sudah Bekerja</h5>
                         </div>
                     </div>
@@ -453,7 +453,7 @@
 
 
         <!-- Pengajar Start -->
-        <div class="container-fluid py-5 mb-5 team">
+        {{-- <div class="container-fluid py-5 mb-5 team">
             <div class="container">
                 <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
                     <h5 class="text-primary">Tim Pengajar Kami</h5>
@@ -538,7 +538,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Pengajar End -->
 
         {{-- <!-- Testimonial Start -->
@@ -651,7 +651,7 @@
                 <div class="row g-5 mb-5 justify-content-center">
                     <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
                         <div class="d-flex bg-light p-3 rounded">
-                            <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                            <div class="flex-shrink-0 btn-square btn-secondary rounded-circle" style="width: 64px; height: 64px;">
                                 <i class="fas fa-map-marker-alt text-white"></i>
                             </div>
                             <div class="ms-3">
@@ -662,7 +662,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s">
                         <div class="d-flex bg-light p-3 rounded">
-                            <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                            <div class="flex-shrink-0 btn-square btn-secondary rounded-circle" style="width: 64px; height: 64px;">
                                 <i class="fa fa-phone text-white"></i>
                             </div>
                             <div class="ms-3">
@@ -673,7 +673,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
                         <div class="d-flex bg-light p-3 rounded">
-                            <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                            <div class="flex-shrink-0 btn-square btn-secondary rounded-circle" style="width: 64px; height: 64px;">
                                 <i class="fa fa-envelope text-white"></i>
                             </div>
                             <div class="ms-3">
@@ -704,7 +704,7 @@
                                 <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Message"></textarea>
                             </div>
                             <div class="text-start">
-                                <button class="btn bg-primary text-white py-3 px-5" type="button">Send Message</button>
+                                <button class="btn btn-secondary text-white py-3 px-5" type="button">Send Message</button>
                             </div>
                         </div>
                     </div>
