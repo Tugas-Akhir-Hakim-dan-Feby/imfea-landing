@@ -13,7 +13,7 @@
                         <img src="{{ asset('assets/img/carousel-3.jpg') }}" class="img-fluid" alt="First slide">
                         <div class="carousel-caption">
                             <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp">Solusi Bimbel Terbaik</h6>
+                                <h6 class="text-white h4 animated fadeInUp">Solusi Bimbel Terbaik</h6>
                                 <h1 class="mb-4 text-white display-1  animated fadeInRight">Agen Solusi Bimbel Inovatif</h1>
                                 <p class="mb-5 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
 
@@ -31,7 +31,7 @@
                         <img src="{{ asset('assets/img/corousel-4.jpg') }}" class="img-fluid" alt="Second slide">
                         <div class="carousel-caption">
                             <div class="container carousel-content">
-                                <h6 class="text-secondary h4 animated fadeInUp">Solusi Bimbel Terbaik</h6>
+                                <h6 class="text-white h4 animated fadeInUp">Solusi Bimbel Terbaik</h6>
                                 <h1 class="text-white display-1 mb-4 animated fadeInRight">Agen Solusi Bimbel Inovatif</h1>
                                 <p class="mb-5 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
                             
