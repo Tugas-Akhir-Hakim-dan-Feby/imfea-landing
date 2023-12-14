@@ -14,15 +14,15 @@
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
+  --bs-green: #7D7463;
+  --bs-teal: #7D7463;
   --bs-cyan: #0dcaf0;
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #9A031E;
   --bs-secondary: #A8A196;
-  --bs-success: #198754;
+  --bs-success: #7D7463;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
@@ -2745,22 +2745,22 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #000;
-  background-color: #47da9d;
-  border-color: #3cd898;
+  background-color: #7D7463;
+  border-color: #7D7463;
   box-shadow: 0 0 0 0.25rem rgba(32, 180, 119, 0.5);
 }
 .btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
   color: #000;
-  background-color: #51dda3;
-  border-color: #3cd898;
+  background-color: #7D7463;
+  border-color: #7D7463;
 }
 .btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(32, 180, 119, 0.5);
+  box-shadow: #7D7463;
 }
 .btn-secondary:disabled, .btn-secondary.disabled {
   color: #000;
-  background-color: #26d48c;
-  border-color: #26d48c;
+  background-color: #7D7463;
+  border-color: #7D7463;
 }
 
 .btn-success {
