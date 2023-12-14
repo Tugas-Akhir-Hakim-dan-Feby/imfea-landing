@@ -69,31 +69,31 @@
                                 {{-- <h5 class="mb-3" style="font-size: 2rem;">Hubungi <br> Riski Ahmad Ilham</h5> --}}
                                 {{-- <span class="text-secondary d-block mb-4" style="font-size: 1.2rem;">No Hp : +62895341206291</span> --}}
 
-                                <span class="d-block mb-4" style="font-size: 25px; text-align:justify; font-weight:bold; color:#6B5CFF;">Info event : </span>
+                                <span class="d-block mb-4" style="font-size: 25px; text-align:justify; font-weight:bold; color:#9A031E;">Info event : </span>
                                 <div style="display: flex; justify-content: space-between;">
                                     <small style="text-align: justify; font-size:20px;">
-                                        <i class="fa fa-calendar me-2" style="color: #6B5CFF;"></i>
+                                        <i class="fa fa-calendar me-2" style="color: #9A031E;"></i>
                                          &nbsp;Juli 
                                     </small>
                                 </div>
 
                                 <div style="display: flex; justify-content: space-between;">
                                     <small style="text-align: justify; font-size:20px;">
-                                        <i class="fa fa-clock me-2" style="color: #6B5CFF;"></i>
+                                        <i class="fa fa-clock me-2" style="color: #9A031E;"></i>
                                         &nbsp;14:00 s/d 15:30 WIB
                                     </small> 
                                 </div>
 
                                 <div style="display: flex; justify-content: space-between;">
                                     <small style="text-align: justify; font-size:20px;">
-                                        <i class="fa fa-thumbtack me-2" style="color: #6B5CFF;"></i>
+                                        <i class="fa fa-thumbtack me-2" style="color: #9A031E;"></i>
                                         &nbsp; Online
                                     </small> 
                                 </div>
 
                                 <div style="display: flex; justify-content: space-between;">
                                     <small style="text-align: justify; font-size:20px;">
-                                        <i class="fa fa-certificate me-2" style="color: #6B5CFF;"></i>
+                                        <i class="fa fa-certificate me-2" style="color: #9A031E;"></i>
                                         &nbsp;Sertifikat
                                     </small> 
                                 </div>

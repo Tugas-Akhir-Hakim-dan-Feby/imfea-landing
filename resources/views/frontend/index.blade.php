@@ -18,7 +18,7 @@
                                 <p class="mb-5 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
 
                                 <div class="mb-3">
-                                <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-secondary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
+                                <a href=""><button type="button" class="text-white px-4 py-sm-3 px-sm-5 btn btn-secondary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
                                 </div>
 
                                 <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Hubungi Kami</button></a>
@@ -36,7 +36,7 @@
                                 <p class="mb-5 text-white fs-5 animated fadeInDown">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt.</p>
                             
                                 <div class="mb-3">
-                                    <a href=""><button type="button" class="px-4 py-sm-3 px-sm-5 btn .btn-secondary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
+                                    <a href=""><button type="button" class="text-white px-4 py-sm-3 px-sm-5 btn .btn-secondary rounded-pill carousel-content-btn1 animated fadeInLeft">Selengkapnya</button></a>
                                 </div>
 
                                 <a href="" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Hubungi Kami</button></a>
@@ -651,7 +651,7 @@
                 <div class="row g-5 mb-5 justify-content-center">
                     <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
                         <div class="d-flex bg-light p-3 rounded">
-                            <div class="flex-shrink-0 btn-square btn-secondary rounded-circle" style="width: 64px; height: 64px;">
+                            <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
                                 <i class="fas fa-map-marker-alt text-white"></i>
                             </div>
                             <div class="ms-3">
@@ -662,7 +662,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s">
                         <div class="d-flex bg-light p-3 rounded">
-                            <div class="flex-shrink-0 btn-square btn-secondary rounded-circle" style="width: 64px; height: 64px;">
+                            <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
                                 <i class="fa fa-phone text-white"></i>
                             </div>
                             <div class="ms-3">
@@ -673,7 +673,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
                         <div class="d-flex bg-light p-3 rounded">
-                            <div class="flex-shrink-0 btn-square btn-secondary rounded-circle" style="width: 64px; height: 64px;">
+                            <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
                                 <i class="fa fa-envelope text-white"></i>
                             </div>
                             <div class="ms-3">
